@@ -1,0 +1,97 @@
+.continer {
+  display: flex;
+  background: #3e8c90;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.continer .forms-login {
+  /* background: rgb(77, 77, 2); */
+  /* position: relative; */
+  width: 400px;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.forms-login span {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 700;
+  height: max-content;
+  margin: 5px;
+}
+
+.forms-login .input-form {
+  /* background: green; */
+  width: 100%;
+  padding: 80px 0;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  box-sizing: border-box;
+  /* background: purple; */
+}
+
+.input-form form label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #eeeeee;
+  margin: 5px 0;
+}
+
+.input-form form input {
+  background: #3e8c90;
+  border: 2px solid #bebebe;
+  border-radius: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+  color: #bebebe;
+}
+
+form .uil-envelope {
+  position: absolute;
+  color: #bebebe;
+  font-size: 20px;
+  top: 20%;
+  margin: 0 10px;
+  transform: translateY(-70%);
+}
+form .uil-lock {
+  position: absolute;
+  color: #bebebe;
+  font-size: 20px;
+  top: 45%;
+  margin: 0 10px;
+  transform: translateY(-60%);
+}
+form .button-field {
+  display: flex;
+  justify-content: center;
+  /* background: red; */
+}
+
+form button {
+  border: none;
+  background: #f5a62e;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  margin-top: 110px;
+  padding: 10px;
+  width: 60%;
+  cursor: pointer;
+}

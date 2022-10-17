@@ -1,0 +1,41 @@
+nav {
+  position: relative;
+  display: flex;
+  background-color: #3e8c90;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: #eeeeee;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.7);
+  /* opacity: 0.2; */
+}
+
+nav .logo {
+  font-size: 20px;
+  margin: 0 65px;
+  font-weight: 700;
+}
+nav i {
+  font-size: 32px;
+  margin: 0 65px;
+  font-weight: 700;
+  transition: all ease-in 0.2s;
+
+  /* background-color: aqua; */
+}
+
+nav i:hover {
+  color: #f5a62e;
+}
+
+/* Ukuran Mobile */
+@media screen and (max-width: 576px) {
+  nav .logo {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  nav i {
+    margin-right: 15px;
+    font-size: 32px;
+  }
+}

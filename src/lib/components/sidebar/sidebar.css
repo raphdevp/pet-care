@@ -1,0 +1,110 @@
+.sidebar-field {
+  /* position: absolute; */
+  color: #eeeeee;
+  text-align: center;
+  background: #3e8c90;
+  width: 250px;
+  height: 100vh;
+  /* margin-top: 100px; */
+}
+.sidebar-field .dashboard-link,
+.datauser-link,
+.datapemesanan-link,
+.datalayanan-link {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  height: 50px;
+  cursor: pointer;
+}
+.sidebar-field .dashboard-link {
+  margin-top: 87px;
+}
+.sidebar-field .dashboard-link i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.sidebar-field .datauser-link i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.sidebar-field .datapemesanan-link i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.sidebar-field .datalayanan-link i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.sidebar-field .dashboard-link:hover,
+.datapemesanan-link:hover,
+.datalayanan-link:hover,
+.datauser-link:hover {
+  background: #f5a62e;
+  transition: all ease-in 0.2s;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar-field {
+    width: 120px;
+  }
+
+  .sidebar-field .dashboard-link span,
+  .datauser-link span,
+  .datapemesanan-link span,
+  .datalayanan-link span {
+    opacity: 0;
+  }
+  .sidebar-field .dashboard-link i,
+  .datauser-link i,
+  .datapemesanan-link i,
+  .datalayanan-link i {
+    position: absolute;
+    font-size: 22px;
+  }
+  .sidebar-field .dashboard-link i:hover,
+  .datauser-link i:hover,
+  .datapemesanan-link i:hover,
+  .datalayanan-link i:hover {
+    background: #f5a62e;
+    transition: all ease-in 0.3s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-field .dashboard-link i,
+  .datauser-link i,
+  .datapemesanan-link i,
+  .datalayanan-link i {
+    /* position: absolute; */
+    opacity: 0;
+  }
+  .sidebar-field .dashboard-link span,
+  .datauser-link span,
+  .datapemesanan-link span,
+  .datalayanan-link span {
+    margin-right: 25px;
+  }
+}
+
+/* @media screen and (min-width: 1280px) {
+  .sidebar-field .dashboard-link i,
+  .datauser-link i,
+  .datapemesanan-link i,
+  .datalayanan-link i {
+    opacity: 1;
+  }
+  .sidebar-field .dashboard-link span,
+  .datauser-link span,
+  .datapemesanan-link span,
+  .datalayanan-link span {
+    margin-right: 40px;
+  }
+} */
